@@ -1,0 +1,22 @@
+
+:root{
+    --green5 : #26b47b;
+    --green4 : #5cc565;
+    --green3 : #c0d376;
+    --grenn2 : #e2e3a8;
+    --green1 : #eaead7;
+    --white :  #ffffff;
+    
+}
+    
+header{    
+    display: flex;
+    justify-content: flex-start;
+    padding: 100px;
+    background-color: #eaead7;
+}
+.my-name{
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+}
