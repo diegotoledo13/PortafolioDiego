@@ -10,7 +10,7 @@ function Header () {
         <div>
             <header className="main-header">
                 <h1 className="main-header-name">Diego Toledo</h1>
-                <img className="main-header-img" src="/public/images/imgDiego.png" alt="" />
+                <img className="main-header-img" src="/src/public/images/imgDiego.png" alt="" />
                 <div class="social-container">
                     <ul>
                         <a href="#"><img src={instagram} alt="Instagram" /> </a>
