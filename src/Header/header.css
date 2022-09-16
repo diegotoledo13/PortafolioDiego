@@ -6,17 +6,100 @@
     --grenn2 : #e2e3a8;
     --green1 : #eaead7;
     --white :  #ffffff;
-    
+    --iconColor : #00B5F5;
+    --accent : #002A8F;
+    --bluefade: #0043E0;
+    --gradient: #00B5F5;
+    --direction: -45deg;
 }
-    
-header{    
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+header{
+    position: relative;
     display: flex;
-    justify-content: flex-start;
-    padding: 100px;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
     background-color: #eaead7;
+    justify-content: center;
+    flex-direction: row;
 }
-.my-name{
-    font-size: 28px;
+
+.main-header-name{
+    position: absolute;
+    height: 60px;
+    width: 296px;
+    font-size: 50px;
     font-weight: 500;
     color: black;
+    top: 265px;
+    left: 0px;
 }
+
+.main-header-img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+}
+
+.social-container {
+    width: 280px;
+    height: 100px;
+    margin: 0;
+    position: absolute;
+    right: 100px;
+    bottom: -15px;
+}
+
+/*Icons social media*/
+
+a{
+    display: inline-block;
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+}
+a img{
+    height: 50px;
+    width: 50px;
+}
+ul img:hover{
+    box-shadow: 0px 0px 40px 0px var(--iconColor);
+    color: white;
+    border-radius: 100%;
+    animation: changeBg 1s infinite;
+    -webkit-animation-duration: 10s;
+}
+@keyframes changeBg {
+    0%,
+       100% {
+     box-shadow: 0px 0px 40px 0px var(--accent);
+    }
+   
+    25% {
+     box-shadow: 0px 0px 40px 0px turquoise;
+     background-color:  var(--green1);
+    }
+   
+    50% {
+     box-shadow: 0px 0px 40px 0px var(--bluefade);
+     background-color:  var(--green1);
+    }
+   
+    75% {
+     box-shadow: 0px 0px 40px 0px var(--green5);
+     background-color:  var(--green1);
+    }
+   }
