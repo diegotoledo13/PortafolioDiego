@@ -1,5 +1,6 @@
 import React from "react";
 import "./section.css";
+import images from "../assets/icons/images";
 
 function Section() {
   return (
@@ -14,19 +15,19 @@ function Section() {
       <section>
         <p className="phone"></p>
 
-        <img src="/src/assets/icons/call.png" alt="Telefono" />
+        <img src={images.call} alt="Phone" />
       </section>
       <section>
         <p className="mail"></p>
-        <img src="/src/assets/icons/gmail.png" alt="Mail" />
+        <img src={images.mail} alt="Mail" />
       </section>
       <section>
         <p className="home"></p>
-        <img src="/src/assets/icons/house.png" alt="direccion" />
+        <img src={images.address} alt="Address" />
       </section>
       <section>
         <p className="skills"></p>
-        <img src="/src/assets/icons/skills.png" alt="Habilidades" />
+        <img src={images.skills} alt="Skills" />
       </section>
     </div>
   );
