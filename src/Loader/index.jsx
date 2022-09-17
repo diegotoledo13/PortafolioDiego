@@ -1,18 +1,17 @@
 import React from "react";
-import './loader.css';
+import "./loader.css";
 
-
-function Loader () {
-    return(
-            <div class="loader">
-                <div class="loader-square"></div>
-                <div class="loader-square"></div>
-                <div class="loader-square"></div>
-                <div class="loader-square"></div>
-                <div class="loader-square"></div>
-                <div class="loader-square"></div>
-                <div class="loader-square"></div>
-            </div>
-    )
+function Loader() {
+  return (
+    <div className="loader">
+      <div className="loader-square"></div>
+      <div className="loader-square"></div>
+      <div className="loader-square"></div>
+      <div className="loader-square"></div>
+      <div className="loader-square"></div>
+      <div className="loader-square"></div>
+      <div className="loader-square"></div>
+    </div>
+  );
 }
 export { Loader };
