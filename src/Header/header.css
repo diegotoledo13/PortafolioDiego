@@ -28,7 +28,7 @@ header{
     position: relative;
     display: flex;
     width: 100%;
-    min-width: 320px;
+    min-width:750px;
     height: 334px;
     background-color: #eaead7;
     justify-content: center;
@@ -38,12 +38,12 @@ header{
 .main-header-name{
     position: absolute;
     height: 60px;
-    width: 296px;
+    width: 400px;
     font-size: 50px;
     font-weight: 500;
     color: black;
-    top: 265px;
-    left: 0px;
+    top: 190px;
+    left: 280px;
 }
 
 .main-header-img {

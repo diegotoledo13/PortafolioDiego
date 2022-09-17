@@ -1,0 +1,59 @@
+:root{
+    --green5 : #26b47b;
+    --green4 : #5cc565;
+    --green3 : #c0d376;
+    --green2 : #e2e3a8;
+    --green1 : #eaead7;
+    --white :  #ffffff;
+    --iconColor : #00B5F5;
+    --accent : #002A8F;
+    --bluefade: #0043E0;
+    --gradient: #00B5F5;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+h2{
+    padding: 10px;
+    font-size: 60px;
+    font-family:sans-serif;
+    font-weight:800;
+    font-style: italic;
+}
+
+.main-container{
+    background-color :var(--green2);
+    position: absolute;
+    width: 500px;
+    height: 1000px;
+    /*min-width: 750px;*/
+}
+h3{
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight:500;
+    font-style: italic;
+    padding: 40px 40px;
+}
+.main-container section{
+    display: contents;
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+.main-container img{
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+}
+
