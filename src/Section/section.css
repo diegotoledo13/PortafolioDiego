@@ -57,3 +57,18 @@ h3{
     width: 40px;
 }
 
+.main-contact p, li{
+    font-size: 22px;
+    font-weight: 300;
+    position: relative;
+    text-align: initial;
+    font-size: 22px;
+    font-weight: 300;
+    top: 50px;
+    left: 75px;
+}
+
+.skills img {
+    position: absolute;
+    bottom: 85px;
+}
