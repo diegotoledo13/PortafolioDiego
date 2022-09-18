@@ -145,3 +145,18 @@ div .loader{
    .loader-square:nth-of-type(7) {
     animation-delay: -10s;
    }
+
+   @media (max-width:768px){
+    div .loader{    
+        position: absolute;
+        top: 70px;
+        left: 400px;
+    }
+   }
+   @media (max-width:320px){
+    div .loader{
+        position: absolute;
+        top: 420px;
+        left: 310px;
+    }
+   }

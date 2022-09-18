@@ -104,3 +104,32 @@ ul img:hover{
      background-color:  var(--green1);
     }
    }
+
+   @media (max-width:768px){
+    header{
+        width: 118%;
+
+    }
+   }
+   @media (max-width:320px){
+    .main-header-img {
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        top: 40px;
+        left: 220px;
+        margin: 5px;
+   }
+   header {
+    height: 650px;
+   }
+   .main-header-name{
+    top: 320px;
+    left: 188px;
+   }
+   .social-container{
+    right: 250px;
+    bottom: -27px;
+   }
+
+   }
