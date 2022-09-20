@@ -1,8 +1,8 @@
 
 div .loader{
     position: absolute;
-    top: 175px;
-    left: 700px;
+    top: 140px;
+    left: 745px;
 }
 
 @keyframes square-animation {

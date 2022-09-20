@@ -8,7 +8,7 @@ import mail from "../icons/gmail.png";
 import address from "../icons/house.png";
 import skills from "../icons/skills.png";
 
-const images = {
+const imagesLogo = {
   instagram,
   linkedin,
   github,
@@ -20,4 +20,4 @@ const images = {
   skills,
 };
 
-export default images;
+export default imagesLogo;

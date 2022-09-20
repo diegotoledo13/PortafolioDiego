@@ -1,6 +1,6 @@
 import React from "react";
 import "./section.css";
-import images from "../assets/icons/images";
+import imagesLogo from "../assets/icons/images";
 
 function Section() {
   return (
@@ -16,15 +16,15 @@ function Section() {
         <section>
           <p className="phone">+59899818265</p>
 
-          <img src={images.call} alt="Phone" />
+          <img src={imagesLogo.call} alt="Phone" />
         </section>
         <section className="mail">
           <p>diegomasteruno13@gmail.com</p>
-          <img src={images.mail} alt="Mail" />
+          <img src={imagesLogo.mail} alt="Mail" />
         </section>
         <section className="home">
           <p>Maldonado - Uruguay</p>
-          <img src={images.address} alt="Address" />
+          <img src={imagesLogo.address} alt="Address" />
         </section>
         <section className="skills">
           <li>Front-end Developer</li>
@@ -32,7 +32,7 @@ function Section() {
           <li>
             Técnico en Reparación y <br></br> Mantenimiento de PC y Redes
           </li>
-          <img src={images.skills} alt="Skills" />
+          <img src={imagesLogo.skills} alt="Skills" />
         </section>
       </div>
     </div>

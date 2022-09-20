@@ -29,10 +29,11 @@ header{
     display: flex;
     width: 100%;
     min-width:750px;
-    height: 334px;
+    height: 333px;
     background-color: #eaead7;
     justify-content: center;
     flex-direction: row;
+    background-image: url('/src/assets/images/backgroundDiego.jpg');
 }
 
 .main-header-name{
@@ -42,7 +43,7 @@ header{
     font-size: 50px;
     font-weight: 500;
     color: black;
-    top: 190px;
+    top: 145px;
     left: 280px;
 }
 
