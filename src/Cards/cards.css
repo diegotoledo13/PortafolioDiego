@@ -41,6 +41,7 @@ div .main-cards{
 .images-container img{
     width: 350px;
     border-radius: 25px;
+    box-shadow: 0px 0px 15px -5px;
 }
 
 .name-certificate {

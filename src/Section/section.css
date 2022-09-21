@@ -34,7 +34,7 @@ h2{
     background-color :var(--green2);
     position: absolute;
     width: 500px;
-    height: 1436px;
+    height: 2122px;
     /*min-width: 750px;*/
 }
 h3{
@@ -70,7 +70,7 @@ h3{
 
 .skills img {
     position: absolute;
-    bottom: 520px;
+    bottom: 1210px;
 }
 
 

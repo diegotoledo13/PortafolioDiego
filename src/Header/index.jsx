@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
       <header className="main-header">
-        <h1 className="main-header-name">Dev in progress</h1>
+        <h1 className="main-header-name">Website in production</h1>
         <img
           className="main-header-img"
           src={imagesLogo.imgDiego}
