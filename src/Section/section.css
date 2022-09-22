@@ -86,10 +86,19 @@ h3{
    }
 @media (max-width:320px){
     .main-container{
-    min-width: 750px;
+        height: 5034px;
     }
     .skills img {
         position: absolute;
-        bottom: 225px;
+        bottom: 1342px;
     }
     }  
+    @media (max-width:375px){
+        .main-container{
+            height: 5034px;
+        }
+        .skills img {
+            position: absolute;
+            bottom: 1342px;
+        }
+        }  

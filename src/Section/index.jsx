@@ -19,7 +19,7 @@ function Section() {
           <img src={imagesLogo.call} alt="Phone" />
         </section>
         <section className="mail">
-          <p>diegomasteruno13@gmail.com</p>
+          <p>diego.toledo.sanchez13@gmail.com</p>
           <img src={imagesLogo.mail} alt="Mail" />
         </section>
         <section className="home">

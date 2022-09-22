@@ -53,3 +53,18 @@ div .main-cards{
     font-size: 5px;
     background-color: white;
 }
+
+@media (max-width:320px){
+  div  .main-cards{
+    top: 1531px;
+    left: 5px;
+    width: 10px;
+}
+}
+@media (max-width:375px){
+    div  .main-cards{
+      top: 1531px;
+      left: 5px;
+      width: 10px;
+  }
+  }

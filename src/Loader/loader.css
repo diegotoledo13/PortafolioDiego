@@ -160,3 +160,10 @@ div .loader{
         left: 310px;
     }
    }
+   @media (max-width:375px){
+    div .loader{
+        position: absolute;
+        top: 420px;
+        left: 310px;
+    }
+   }

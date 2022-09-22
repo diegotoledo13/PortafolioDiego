@@ -120,17 +120,39 @@ ul img:hover{
         top: 40px;
         left: 220px;
         margin: 5px;
+        }
+        header {
+        height: 650px;
+        }
+        .main-header-name{
+        top: 320px;
+        left: 188px;
+        }
+        .social-container{
+        right: 250px;
+        bottom: -27px;
+        }
+
    }
-   header {
-    height: 650px;
-   }
-   .main-header-name{
-    top: 320px;
-    left: 188px;
-   }
-   .social-container{
-    right: 250px;
-    bottom: -27px;
-   }
+   @media (max-width:375px){
+    .main-header-img {
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        top: 40px;
+        left: 220px;
+        margin: 5px;
+        }
+        header {
+        height: 650px;
+        }
+        .main-header-name{
+        top: 320px;
+        left: 188px;
+        }
+        .social-container{
+        right: 250px;
+        bottom: -27px;
+        }
 
    }
