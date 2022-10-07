@@ -23,7 +23,7 @@ function Header() {
             >
               <img src={imagesLogo.linkedin} alt="linkedin" />
             </a>
-            <a target="_blank" href="https://github.com/diegokill13">
+            <a target="_blank" href="https://github.com/diegotoledo13">
               <img src={imagesLogo.github} alt="github" />
             </a>
             <a target="_blank" href="https://twitter.com/diegokill_lp">
