@@ -7,6 +7,9 @@ import call from "../icons/call.png";
 import mail from "../icons/gmail.png";
 import address from "../icons/house.png";
 import skills from "../icons/skills.png";
+import man from "../icons/man.png";
+import photoshop from "../icons/photoshop.png";
+import reactLogo from "../icons/physics.png";
 
 const imagesLogo = {
   instagram,
@@ -18,6 +21,9 @@ const imagesLogo = {
   mail,
   address,
   skills,
+  man,
+  photoshop,
+  reactLogo,
 };
 
 export default imagesLogo;
