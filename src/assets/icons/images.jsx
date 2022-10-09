@@ -10,6 +10,11 @@ import skills from "../icons/skills.png";
 import man from "../icons/man.png";
 import photoshop from "../icons/photoshop.png";
 import reactLogo from "../icons/physics.png";
+import htmlIcon from "../icons/HTMLicon.png";
+import javaScriptIcon from "../icons/javaScriptIcon.png";
+import cssIcon from "../icons/CSSicon.png";
+import postMan from "../icons/postMan.png";
+import sassIcon from "../icons/sass.png";
 
 const imagesLogo = {
   instagram,
@@ -24,6 +29,11 @@ const imagesLogo = {
   man,
   photoshop,
   reactLogo,
+  htmlIcon,
+  javaScriptIcon,
+  cssIcon,
+  postMan,
+  sassIcon,
 };
 
 export default imagesLogo;

@@ -1,7 +1,9 @@
 import React from "react";
+import { Contact } from "./Contact";
 import { Header } from "./Header/";
 import { Loader } from "./Loader";
-import { Intro } from "./Menu";
+import { Intro } from "./Intro";
+import "./App.css";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Header />
       <Loader />
       <Intro />
+      <Contact />
     </React.Fragment>
   );
 }
