@@ -5,7 +5,7 @@ import imagesLogo from "../assets/icons/images";
 function Header() {
   return (
     <div>
-      <header className="main-header">
+      <div className="main-header">
         <h1 className="main-header-name">Website in production</h1>
         <img
           className="main-header-img"
@@ -31,7 +31,7 @@ function Header() {
             </a>
           </ul>
         </div>
-      </header>
+      </div>
     </div>
   );
 }

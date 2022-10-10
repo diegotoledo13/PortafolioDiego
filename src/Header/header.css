@@ -1,36 +1,10 @@
 
-:root{
-    --green5 : #26b47b;
-    --green4 : #5cc565;
-    --green3 : #c0d376;
-    --grenn2 : #e2e3a8;
-    --green1 : #eaead7;
-    --white :  #ffffff;
-    --iconColor : #00B5F5;
-    --accent : #002A8F;
-    --bluefade: #0043E0;
-    --gradient: #00B5F5;
-    --direction: -45deg;
-}
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html{
-    font-size: 62.5%;
-    font-family: "DM Sans", sans-serif;
-}
-
-header{
+.main-header{
     position: relative;
     display: flex;
     width: 100%;
-    min-width:750px;
-    height: 333px;
-    background-color: #eaead7;
+    height: 370px;
     justify-content: center;
     flex-direction: row;
     background-image: url('/src/assets/images/backgroundDiego.jpg');
