@@ -9,9 +9,9 @@ function App() {
   return (
     <React.Fragment>
       <Header />
+      <Contact />
       <Loader />
       <Intro />
-      <Contact />
     </React.Fragment>
   );
 }

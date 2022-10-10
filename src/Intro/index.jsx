@@ -17,6 +17,17 @@ function Intro() {
           siempre me encuentro en un continuo proceso de aprendizaje.
         </h3>
       </div>
+      <div className="contact-container">
+        <h1 className="contact-container-skills">
+          Habilidades
+          <img src={imagesLogo.skills} alt="skills" />
+        </h1>
+        <li>Front-end Developer</li>
+        <li>Diseñador Gráfico</li>
+        <li>Técnico en Reparación PC y Redes</li>
+        <li>Idiomas Español-Nativo</li>
+        <li>Inglés básico - estudiando actualmente</li>
+      </div>
     </div>
   );
 }
