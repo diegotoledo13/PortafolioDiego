@@ -7,7 +7,7 @@ function Intro() {
     <div className="main-container">
       <div className="main-container-block">
         <h2>
-          Diego Toledo
+          Sobre mí
           <img src={imagesLogo.man} alt="man" />
         </h2>
         <h3 className="main-aboutme">

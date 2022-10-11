@@ -6,7 +6,11 @@ function Header() {
   return (
     <div>
       <div className="main-header">
-        <h1 className="main-header-name">Website in production</h1>
+        <h1 className="main-header-name">Diego Toledo</h1>
+        <h2 className="main-header-subname">
+          F r o n t e n d&nbsp;&nbsp; D e v e l o p e r&nbsp;&nbsp; R e a c t .
+          J s
+        </h2>
         <img
           className="main-header-img"
           src={imagesLogo.imgDiego}

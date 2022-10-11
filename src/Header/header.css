@@ -4,21 +4,31 @@
     position: relative;
     display: flex;
     width: 100%;
-    height: 370px;
+    height: 335px;
     justify-content: center;
     flex-direction: row;
     background-image: url('/src/assets/images/backgroundDiego.jpg');
 }
 
 .main-header-name{
+    font-family: 'PT Serif', serif;
     position: absolute;
     height: 60px;
     width: 400px;
-    font-size: 36px;
-    font-weight: 500;
-    color: black;
-    top: 165px;
-    left: 870px;
+    font-size: 67px;
+    font-weight: 800;
+    color: #374f59;
+    top: 90px;
+    left: 390px;
+}
+.main-header-subname{    
+    font-family: 'Alegreya Sans SC', sans-serif;
+    height: 20px;
+    width: 420px;
+    position: absolute;
+    left: 380px;
+    top: 180px;
+    font-size: 25px;
 }
 
 .main-header-img {
@@ -26,7 +36,7 @@
     width: 250px;
     height: 250px;
     top: 40px;
-    left: 0px;
+    left: 55px;
     margin: 5px;
 }
 
